@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAS Product Landing · Nimbus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="back-portfolio" href="../../index.html#projects">← Portfolio</a>
+
+  <div class="site">
+    <nav class="nav">
+      <span class="brand">Nimbus</span>
+      <div class="links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <button type="button" class="btn-outline">Sign in</button>
+        <button type="button" class="btn-primary">Start free</button>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <p class="eyebrow">Demo site</p>
+      <h1>Ship insights your team actually uses.</h1>
+      <p class="lead">Dashboards, alerts, and workflows in one place. Built as a static landing page for your portfolio.</p>
+      <div class="hero-cta">
+        <button type="button" class="btn-primary btn-lg">Get started</button>
+        <button type="button" class="btn-ghost">Watch overview</button>
+      </div>
+    </header>
+
+    <section class="features" id="features">
+      <h2>Everything in sync</h2>
+      <div class="grid">
+        <article><div class="icon">⚡</div><h3>Real-time</h3><p>Stream metrics with alerts your team will act on.</p></article>
+        <article><div class="icon">🔒</div><h3>Permissions</h3><p>Role-based access from startup to enterprise.</p></article>
+        <article><div class="icon">📊</div><h3>Reports</h3><p>Schedule exports stakeholders actually read.</p></article>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <h2>Simple pricing</h2>
+      <div class="toggle">
+        <span id="lbl-monthly" class="lbl">Monthly</span>
+        <button type="button" id="billing-switch" class="switch on" aria-pressed="true" aria-label="Toggle annual billing"><span class="knob"></span></button>
+        <span id="lbl-annual" class="lbl active">Annual <em>Save 20%</em></span>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <h3>Starter</h3>
+          <p class="price" id="price-starter">$19 / mo</p>
+          <ul><li>5 seats</li><li>Core dashboards</li></ul>
+          <button type="button" class="btn-outline full">Choose</button>
+        </div>
+        <div class="plan featured">
+          <span class="badge">Popular</span>
+          <h3>Pro</h3>
+          <p class="price" id="price-pro">$49 / mo</p>
+          <ul><li>Unlimited seats</li><li>SSO &amp; API</li></ul>
+          <button type="button" class="btn-primary full">Choose</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="logos">
+      <p>Trusted by teams at</p>
+      <div class="logo-row">
+        <span>Acme</span><span>Northwind</span><span>Globex</span><span>Umbrella</span>
+      </div>
+    </section>
+
+    <section class="cta-final">
+      <h2>Ready to ship smarter?</h2>
+      <p>Demo site · HTML, CSS, JavaScript.</p>
+      <button type="button" class="btn-primary btn-lg">Create workspace</button>
+    </section>
+
+    <footer class="footer">
+      <div class="foot-inner"><span class="brand">Nimbus</span><span class="copy">© <span id="y"></span> · Demo site</span></div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

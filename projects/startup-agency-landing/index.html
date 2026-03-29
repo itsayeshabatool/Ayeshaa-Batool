@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertex Studio · Agency</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="back-portfolio" href="../../index.html#projects">← Portfolio</a>
+
+  <div class="site">
+    <header class="hero">
+      <nav class="nav">
+        <span class="logo">Vertex Studio</span>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <button type="button" class="cta">Let's talk</button>
+      </nav>
+      <div class="hero-inner">
+        <h1>We launch brands that feel inevitable.</h1>
+        <p>Strategy, design, and front-end engineering. Full agency landing with HTML, CSS, and JavaScript.</p>
+      </div>
+    </header>
+
+    <section class="services" id="services">
+      <h2>Services</h2>
+      <div class="grid">
+        <article><h3>Brand</h3><p>Positioning, visual systems, and voice.</p></article>
+        <article><h3>Product UI</h3><p>From wireframes to production-ready front-end.</p></article>
+        <article><h3>Growth pages</h3><p>High-performance landings and experiments.</p></article>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <h2>Selected work</h2>
+      <p class="work-lead">Tap a project to open its case study on this page.</p>
+      <div class="tiles">
+        <a href="#case-fintech" class="tile t1">Fintech rebrand<span class="tile-hint" aria-hidden="true">Open case study ↓</span></a>
+        <a href="#case-health" class="tile t2">Health onboarding<span class="tile-hint" aria-hidden="true">Open case study ↓</span></a>
+        <a href="#case-b2b" class="tile t3">B2B dashboard<span class="tile-hint" aria-hidden="true">Open case study ↓</span></a>
+      </div>
+    </section>
+
+    <section class="cases" id="cases" aria-label="Case studies">
+      <article id="case-fintech" class="case" tabindex="-1">
+        <h3>Fintech rebrand</h3>
+        <p class="case-meta">Brand · Design system · Marketing site</p>
+        <p>End-to-end refresh for a payments product: narrative positioning, visual identity, and a component-based site shipped as static HTML/CSS/JS for fast loads.</p>
+        <a class="case-back" href="#work">Back to selected work</a>
+      </article>
+      <article id="case-health" class="case" tabindex="-1">
+        <h3>Health onboarding</h3>
+        <p class="case-meta">UX · Front-end · Accessibility</p>
+        <p>Guided onboarding flows for a health platform: clear steps, error prevention, and keyboard-friendly controls so new users complete setup on the first visit.</p>
+        <a class="case-back" href="#work">Back to selected work</a>
+      </article>
+      <article id="case-b2b" class="case" tabindex="-1">
+        <h3>B2B dashboard</h3>
+        <p class="case-meta">Product UI · Data density · Responsive layout</p>
+        <p>Operations dashboard with scannable KPIs, saved views, and a dense table experience that still works on smaller laptop screens.</p>
+        <a class="case-back" href="#work">Back to selected work</a>
+      </article>
+    </section>
+
+    <footer class="foot">
+      <p>© <span id="y"></span> Vertex Studio · Demo site</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

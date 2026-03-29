@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Analytics Dashboard — Portfolio demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="back-portfolio" href="../../index.html#projects">← Portfolio</a>
+
+  <div class="app">
+    <aside class="sidebar">
+      <div class="logo">Pulse Analytics</div>
+      <nav class="nav">
+        <a class="active" href="#">Overview</a>
+        <a href="#">Reports</a>
+        <a href="#">Audiences</a>
+        <a href="#">Settings</a>
+      </nav>
+    </aside>
+    <div class="main">
+      <header class="topbar">
+        <div class="topbar-title">
+          <span class="live">Live</span>
+          <h1>Overview</h1>
+          <span class="updated">Updated · just now</span>
+        </div>
+        <div class="topbar-actions">
+          <button type="button" class="btn-ghost">Export</button>
+          <button type="button" class="btn-primary">Share report</button>
+          <span class="avatar" aria-hidden="true">AR</span>
+        </div>
+      </header>
+
+      <div class="content">
+        <div class="row-title">
+          <h2>Performance</h2>
+          <div class="range" role="group" aria-label="Date range">
+            <button type="button" id="btn-7d" class="range-btn on">7 days</button>
+            <button type="button" id="btn-30d" class="range-btn">30 days</button>
+          </div>
+        </div>
+
+        <div class="kpis">
+          <div class="kpi">
+            <span class="kpi-label">Revenue</span>
+            <strong id="kpi-rev">$112.4k</strong>
+            <span class="kpi-up">↑ vs prior period</span>
+          </div>
+          <div class="kpi">
+            <span class="kpi-label">Sessions</span>
+            <strong id="kpi-sess">24.8k</strong>
+            <span class="kpi-up">↑ 6.4%</span>
+          </div>
+          <div class="kpi">
+            <span class="kpi-label">Bounce rate</span>
+            <strong id="kpi-bounce">38.2%</strong>
+            <span class="kpi-good">↓ Good</span>
+          </div>
+        </div>
+
+        <section class="card">
+          <h3>Traffic</h3>
+          <div class="bars" aria-label="Weekly traffic">
+            <div class="bar-wrap"><div class="bar" style="height:45%"></div><span>Mon</span></div>
+            <div class="bar-wrap"><div class="bar" style="height:72%"></div><span>Tue</span></div>
+            <div class="bar-wrap"><div class="bar" style="height:58%"></div><span>Wed</span></div>
+            <div class="bar-wrap"><div class="bar" style="height:90%"></div><span>Thu</span></div>
+            <div class="bar-wrap"><div class="bar" style="height:68%"></div><span>Fri</span></div>
+            <div class="bar-wrap"><div class="bar" style="height:38%"></div><span>Sat</span></div>
+            <div class="bar-wrap"><div class="bar" style="height:52%"></div><span>Sun</span></div>
+          </div>
+        </section>
+
+        <section class="card">
+          <h3>Regions</h3>
+          <table>
+            <thead>
+              <tr><th>Region</th><th>Revenue</th><th>Conv.</th><th>Trend</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>North America</td><td>$42.1k</td><td>3.2%</td><td class="trend">+12%</td></tr>
+              <tr><td>Europe</td><td>$31.8k</td><td>2.8%</td><td class="trend">+8%</td></tr>
+              <tr><td>Asia Pacific</td><td>$28.4k</td><td>4.1%</td><td class="trend">+18%</td></tr>
+              <tr><td>LATAM</td><td>$9.2k</td><td>2.1%</td><td class="trend">+5%</td></tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <p class="tech-note">Demo site · HTML · CSS · JavaScript</p>
+  <script src="script.js"></script>
+</body>
+</html>

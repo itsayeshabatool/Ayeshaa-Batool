@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora UI — Component library demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="back-portfolio" href="../../index.html#projects">← Portfolio</a>
+
+  <nav class="site-nav">
+    <strong>Aurora UI</strong>
+    <span class="nav-links">Components · Tokens · Docs</span>
+  </nav>
+
+  <main class="wrap">
+    <p class="intro">Design-system showcase — HTML, CSS, JavaScript.</p>
+    <div class="toolbar">
+      <span>Theme</span>
+      <button type="button" id="th-aurora" class="seg on">Aurora</button>
+      <button type="button" id="th-dusk" class="seg">Dusk</button>
+    </div>
+
+    <section><h2>Buttons</h2>
+      <button type="button" class="b-primary">Primary</button>
+      <button type="button" class="b-sec">Secondary</button>
+      <button type="button" class="b-ghost">Ghost</button>
+    </section>
+
+    <section><h2>Inputs</h2>
+      <label>Email<input type="email" placeholder="you@company.com"></label>
+      <label>Message<textarea rows="3" placeholder="Brief description"></textarea></label>
+    </section>
+
+    <section><h2>Cards</h2>
+      <div class="cards">
+        <div class="card"><h3>Metric</h3><p class="stat">98.2%</p><p class="cap">Uptime</p></div>
+        <div class="card elevated"><h3>Alert</h3><p>Deployment finished.</p></div>
+      </div>
+    </section>
+
+    <section><h2>Tokens</h2>
+      <div class="swatches">
+        <div class="sw" style="background:#6366f1">#6366f1</div>
+        <div class="sw" style="background:#8b5cf6">#8b5cf6</div>
+        <div class="sw" style="background:#ec4899">#ec4899</div>
+        <div class="sw" style="background:#0ea5e9">#0ea5e9</div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

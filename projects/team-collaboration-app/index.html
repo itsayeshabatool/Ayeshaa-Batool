@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Collaboration — Boards demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="back-portfolio" href="../../index.html#projects">← Portfolio</a>
+
+  <div class="page">
+    <header class="head">
+      <h1>Team collaboration</h1>
+      <p>Add tasks and move them across columns.</p>
+    </header>
+
+    <form id="add-form" class="add">
+      <input type="text" id="task-title" placeholder="New task…" />
+      <select id="task-col" aria-label="Column">
+        <option value="todo">To do</option>
+        <option value="doing">In progress</option>
+        <option value="done">Done</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+
+    <div class="board" id="board"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
